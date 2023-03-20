@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        'use strict';
+        var m = new Map([['tom', 100], ['jack', 90], ['wzy', 99]]);
+        var name = m.get('admin');//通过key获得value
+        m.set('admin', 16);//添加
+        console.log(name); 
+        map.delete('tom');//删除
+
+        var set = new Set([4, 3, 1, 1, 1, 1]);
+        // set可以去重
+        set.add(5);// 加1无效
+        set.delete(1);
+        console.log(set.has(3));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        'use strict';
+        var person = {
+            name: "wzy",
+            age: 3,
+            email: "2038233049@qq.com",
+            score: 60
+        }
+
+        var age = 3;
+        // if (age > 3) {
+        // alert("haha");
+        // } else if (age == 1) {
+        // alert("wzy")
+        // } else {
+        // alert("meinv")
+        // }
+
+
+        // while (age < 100) {
+        // age++;
+        // console.log(age)
+        // }
+
+        // var age = [12, 13, 14, 15, 16];
+        // age.forEach(function (value) {
+        // console.log(value)
+        // })
+
+        var age = [12, 13, 14, 15, 16];
+        for (var num in age) {
+            if (age.hasOwnProperty(num)) {
+                console.log(age[num]);
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
